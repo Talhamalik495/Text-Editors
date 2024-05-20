@@ -3,13 +3,13 @@ let imgb = document.getElementById("img2")
 let imgc = document.getElementById("img3")
 let imgd = document.getElementById("img4")
 let imge = document.getElementById("img5")
-let para = document.getElementById("first")
+let para = document.getElementById("first1")
 imga.addEventListener('click', (event) => {
-    if (para.style.weight !== '800') {
-        para.style.fontweight = '800'
+    if (para.style.fontWeight !== '800') {
+        para.style.fontWeight = '800'
     }
     else {
-        para.style.fontweight = ''
+        para.style.fontWeight = ''
     }
 })
 imgb.addEventListener('click', (event) => {

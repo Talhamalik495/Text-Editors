@@ -27,7 +27,7 @@ body {
 .maincontainer {
     line-height: 50px;
     width: 50%;
-    height: 80vh;
+    height: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +43,7 @@ body {
     font-weight: normal;
 
 }
+
 h1 {
     width: 0%;
     animation-name: b;
@@ -55,6 +56,7 @@ h1 {
     color: orange;
     overflow: hidden;
     /* overflow-x: hidden; */
+
 }
 
 @keyframes b {
@@ -94,4 +96,14 @@ h1 {
     background-color: white;
     transition-duration: 2s;
     color: black;
+}
+
+.paragraph {
+    height: 20px;
+    width: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-variant-numeric: diagonal-fractions;
+    padding-left: 10px;
 }
